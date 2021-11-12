@@ -74,9 +74,8 @@ export default function getVideos(duration: number, tags: string[]) {
               vids.push(vid2);
             };
           }
-          break;
-
       }
+      break;
     case 60: //1-3 tags
       let workoutDuration = 0;
       let vid2;
