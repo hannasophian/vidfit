@@ -1,7 +1,12 @@
+import { useState } from "react";
+import MaxCheckMessage from "./MaxCheckMessage";
+
 export default function OptionSelector(): JSX.Element {
-  const timeOptions = [10, 15, 20, 30, 45, 60].map((time) => (
-    <option>{time} mins</option>
+  const times = [10, 15, 20, 30, 45, 60];
+  const timeOptions = times.map((time) => (
+    <option key={time} value={time}>{time} mins</option>
   ));
+  const [duration, setDuration] = useState<number>(times[0]);
 
   const bodyPartOptions = [
     "Full body",
@@ -33,8 +38,9 @@ export default function OptionSelector(): JSX.Element {
   return (
     <>
       <label id="timeselector">Select workout time: </label>
-      <select id="timeselector">{timeOptions}</select>
-
+      <select id="timeselector" value = {duration} onChange={(e) => setDuration(parseInt(e.target.value))}>{timeOptions}</select>
+      <MaxCheckMessage
+        duration={duration} />
       <fieldset>
         <legend>Choose by body part</legend>
         {bodyPartOptions}
@@ -44,6 +50,8 @@ export default function OptionSelector(): JSX.Element {
         <legend>Choose by workout type</legend>
         {workoutTypeOptions}
       </fieldset>
+      <button>Give me some vids!</button>
     </>
   );
 }
+
