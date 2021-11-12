@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
-import AppHeader from './components/AppHeader';
-import OptionSelector from './components/OptionSelector';
+import React from "react";
+import "./App.css";
+import AppHeader from "./components/AppHeader";
+import OptionSelector from "./components/OptionSelector";
 
 function App() {
   return (
