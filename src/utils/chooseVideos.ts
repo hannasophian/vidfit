@@ -6,12 +6,18 @@ export default function getVideos(duration: number, tags: string[]) {
   let noOfTags = tags.length;
   switch (duration) {
     case 10: //1 tag, max 1 video
-      vids = getRandomElement(
+      let vid1 = getRandomElement(
         searchForTime(searchForTags(tags[0]), 0, duration)
       );
+      if (!vid1) {
+        vid1 = getRandomElement(
+          searchForTime(searchForTags("general"), 0, duration)
+        );
+      }
+      vids.push(vid1);
       break;
     case 15 /*1 tag, max 2 vid*/:
-      let vid1 = getRandomElement(
+      vid1 = getRandomElement(
         searchForTime(searchForTags(tags[0]), 0, duration)
       );
       vids.push(vid1);

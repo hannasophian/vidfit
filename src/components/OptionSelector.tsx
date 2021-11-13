@@ -1,7 +1,10 @@
 import { useState } from "react";
 import MaxCheckMessage from "./MaxCheckMessage";
+import getVideos from "../utils/chooseVideos";
+import Video from "../utils/Video";
 
 export default function OptionSelector(): JSX.Element {
+  const [videos, setVideos] = useState<Video[]>([]);
   const [tags, setTags] = useState<string[]>([]);
   const times = [10, 15, 20, 30, 45, 60];
   const timeOptions = times.map((time) => (
@@ -32,7 +35,17 @@ export default function OptionSelector(): JSX.Element {
     <div>
       <input
         type="checkbox"
-        onChange={() => handleClickCheckbox(part)}
+        onChange={() =>
+          handleClickCheckbox(
+            part
+              .toLowerCase()
+              .split("")
+              .map((char) => {
+                return char === " " ? "-" : char;
+              })
+              .join("")
+          )
+        }
         // onChange={(event) => !tags.includes(event.target.value)? setTags([...tags, part]):setTags(tags.splice(tags.indexOf(event.target.value),1))}
         id={part}
         name="bodypart"
@@ -42,24 +55,23 @@ export default function OptionSelector(): JSX.Element {
     </div>
   ));
 
-  const workoutTypeOptions = [
-    "HIIT",
-    "yoga",
-    "pilates",
-    "cardio",
-    "stretches",
-    "dance",
-  ].map((type) => (
-    <div>
-      <input
-        type="checkbox"
-        onChange={() => handleClickCheckbox(type)}
-        id={type}
-        name="workouttype"
-        value="coding"
-      />
-      <label>{type}</label>
-    </div>
+  const workoutTypeOptions = ["HIIT", "yoga", "pilates", "cardio", "dance"].map(
+    (type) => (
+      <div>
+        <input
+          type="checkbox"
+          onChange={() => handleClickCheckbox(type)}
+          id={type}
+          name="workouttype"
+          value="coding"
+        />
+        <label>{type}</label>
+      </div>
+    )
+  );
+
+  const showVids = videos.map((video) => (
+    <iframe width="420" height="315" src={video.url}></iframe>
   ));
   return (
     <>
@@ -79,9 +91,15 @@ export default function OptionSelector(): JSX.Element {
         {workoutTypeOptions}
       </fieldset>
 
-      <button onClick={() => console.log(duration, tags)}>
+      <button
+        onClick={() => {
+          console.log(duration, tags);
+          setVideos(getVideos(duration, tags));
+        }}
+      >
         Give me some vids!
       </button>
+      <div>{showVids}</div>
     </>
   );
 }
