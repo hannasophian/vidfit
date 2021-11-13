@@ -2,11 +2,22 @@ import { useState } from "react";
 import MaxCheckMessage from "./MaxCheckMessage";
 
 export default function OptionSelector(): JSX.Element {
+  const [tags, setTags] = useState<string[]>([]);
   const times = [10, 15, 20, 30, 45, 60];
   const timeOptions = times.map((time) => (
     <option key={time} value={time}>{time} mins</option>
   ));
   const [duration, setDuration] = useState<number>(times[0]);
+
+  const handleClickCheckbox = (newTag: string) => {
+    if (tags.includes(newTag)) {
+      let currentTags = [...tags]
+      currentTags.splice(tags.indexOf(newTag), 1);
+      setTags(currentTags);
+    } else {
+      setTags([...tags, newTag])
+    }
+  }
 
   const bodyPartOptions = [
     "Full body",
@@ -17,7 +28,9 @@ export default function OptionSelector(): JSX.Element {
     "Back",
   ].map((part) => (
     <div>
-      <input type="checkbox" id={part} name="bodypart" value="coding" />
+      <input type="checkbox" onChange={() => handleClickCheckbox(part)}
+      // onChange={(event) => !tags.includes(event.target.value)? setTags([...tags, part]):setTags(tags.splice(tags.indexOf(event.target.value),1))}
+      id={part} name="bodypart" value="coding" />
       <label>{part}</label>
     </div>
   ));
@@ -31,7 +44,7 @@ export default function OptionSelector(): JSX.Element {
     "dance",
   ].map((type) => (
     <div>
-      <input type="checkbox" id={type} name="workouttype" value="coding" />
+      <input type="checkbox" onChange={() => handleClickCheckbox(type)} id={type} name="workouttype" value="coding" />
       <label>{type}</label>
     </div>
   ));
@@ -44,13 +57,11 @@ export default function OptionSelector(): JSX.Element {
       <fieldset>
         <legend>Choose by body part</legend>
         {bodyPartOptions}
-      </fieldset>
-
-      <fieldset>
         <legend>Choose by workout type</legend>
         {workoutTypeOptions}
       </fieldset>
-      <button>Give me some vids!</button>
+
+      <button onClick={() => console.log(duration, tags)}>Give me some vids!</button>
     </>
   );
 }
