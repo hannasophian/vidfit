@@ -1,250 +1,219 @@
 [
   {
-    "id": 1,
-    "url": "https://www.youtube.com/embed/UBMk30rjy0o",
-    "duration": 20,
-    "name": "20 MIN FULL BODY WORKOUT // No Equipment | Pamela Reif",
-    "creator": "Pamela Reif",
-    "tags": ["full-body"]
-  },
-  {
-    "id": 2,
-    "url": "https://www.youtube.com/embed/M0uO8X3_tEA",
+    "id": "M0uO8X3_tEA",
     "duration": 20,
     "name": "20 Minute Full Body Cardio HIIT Workout [NO REPEAT]",
     "creator": "Juice & Toya",
     "tags": ["HIIT", "full-body", "cardio"]
   },
   {
-    "id": 3,
-    "url": "https://www.youtube.com/embed/Fq3PmxITeeY",
+    "id": "Fq3PmxITeeY",
     "duration": 45,
     "name": "NO REPEAT 45 Min FULL BODY Workout// No Equipment/ //Warm up + Cool down/ Cardio and Strength",
     "creator": "Healthy Fit with Ty",
     "tags": ["full-body", "cardio"]
   },
   {
-    "id": 4,
-    "url": "https://www.youtube.com/embed/6VFLKdfxA24",
+    "id": "6VFLKdfxA24",
     "duration": 10,
     "name": "10 MIN FULL BODY WORKOUT // No Equipment | Pamela Reif",
     "creator": "Pamela Reif",
     "tags": ["full-body"]
   },
   {
-    "id": 5,
-    "url": "https://www.youtube.com/embed/j64BBgBGNIU",
+    "id": "j64BBgBGNIU",
     "duration": 10,
     "name": "10 Mins Toned Arms Workout | No Equipment",
     "creator": "Chloe Ting",
     "tags": ["arms"]
   },
   {
-    "id": 6,
-    "url": "https://www.youtube.com/embed/X6gWQ1Lcvjg",
+    "id": "X6gWQ1Lcvjg",
     "duration": 15,
     "name": "15 Min DUMBBELL ARMS & SHOULDER WORKOUT at Home | No Repeat",
     "creator": "Caroline Girvan",
     "tags": ["arms"]
   },
   {
-    "id": 7,
-    "url": "https://www.youtube.com/embed/uUKAYkQZXko",
+    "id": "uUKAYkQZXko",
     "duration": 10,
     "name": "10 Minute Home Ab Workout (6 PACK GUARANTEED!)",
     "creator": "Fraser Wilson",
     "tags": ["abs"]
   },
   {
-    "id": 8,
-    "url": "https://www.youtube.com/embed/8AAmaSOSyIA",
+    "id": "8AAmaSOSyIA",
     "duration": 20,
     "name": "20 MIN TOTAL CORE/AB WORKOUT (At Home No Equipment)",
     "creator": "MadFit",
     "tags": ["abs"]
   },
   {
-    "id": 9,
-    "url": "https://www.youtube.com/embed/5cAh3m5HCpw",
+    "id": "5cAh3m5HCpw",
     "duration": 10,
     "name": "Savage 10 Minute Leg Burner | The Body Coach TV",
     "creator": "The Body Coach TV",
     "tags": ["legs"]
   },
   {
-    "id": 10,
-    "url": "https://www.youtube.com/embed/HVyt7ywsOQ8",
+    "id": "HVyt7ywsOQ8",
     "duration": 15,
     "name": "15 MIN LEG WORKOUT - Thighs, Booty, Calves (No Equipment)",
     "creator": "MadFit",
     "tags": ["legs", "butt"]
   },
   {
-    "id": 11,
-    "url": "https://www.youtube.com/embed/8-PjpUH8TcE",
+    "id": "8-PjpUH8TcE",
     "duration": 30,
     "name": "30 MIN KILLER Lower Body HIIT Workout - No Repeat, No equipment",
     "creator": "growingannanas",
     "tags": ["legs", "butt"]
   },
   {
-    "id": 12,
-    "url": "https://www.youtube.com/embed/RqfkrZA_ie0",
+    "id": "RqfkrZA_ie0",
     "duration": 10,
     "name": "10 MIN BOOTY BURN // No Equipment | Pamela Reif",
     "creator": "Pamela Reif",
     "tags": ["butt"]
   },
   {
-    "id": 13,
-    "url": "https://www.youtube.com/embed/Mh_3ddy9zbY",
+    "id": "JAuNs5FnAOU",
     "duration": 10,
-    "name": "10 min Back & Arms Workout",
-    "creator": "Chloe Ting",
-    "tags": ["back", "arms"]
+    "name": "10 MIN BACK WORKOUT - upper back, lower back, lats & neck / Equipment: Bottles I Pamela Reif",
+    "creator": "Pamela Reif",
+    "tags": ["back"]
   },
   {
-    "id": 14,
-    "url": "https://www.youtube.com/embed/14LTcAIwBoI",
+    "id": "e_HviaEIEas",
+    "duration": 10,
+    "name": "10 MIN TONED ARMS - quick & intense at home / with water bottles I Pamela Reif",
+    "creator": "Pamela Reif",
+    "tags": ["arms"]
+  },
+  {
+    "id": "14LTcAIwBoI",
     "duration": 20,
     "name": "20 min AT HOME BACK WORKOUT (Tone, Build, & Define)",
     "creator": "MadFit",
     "tags": ["back"]
   },
   {
-    "id": 15,
-    "url": "https://www.youtube.com/embed/zr08J6wB53Y",
+    "id": "zr08J6wB53Y",
     "duration": 10,
     "name": "10 MIN HIGH INTENSITY WORKOUT - burn lots of calories, HIIT / No Equipment I Pamela Reif",
     "creator": "Pamela Reif",
     "tags": ["HIIT", "cardio", "full-body"]
   },
   {
-    "id": 16,
-    "url": "https://www.youtube.com/embed/-YpRYNREDV8",
+    "id": "-YpRYNREDV8",
     "duration": 30,
     "name": "No Equipment INTENSE FULL BODY CRUSHER - HIIT WORKOUT I no repeat I stronger together",
     "creator": "growingannanas",
     "tags": ["HIIT", "cardio", "full-body"]
   },
   {
-    "id": 17,
-    "url": "https://www.youtube.com/embed/VpW33Celubg",
+    "id": "VpW33Celubg",
     "duration": 10,
     "name": "10-Minute Yoga For Self Care | Restorative Yoga | Yoga With Adriene",
     "creator": "Yoga With Adriene",
     "tags": ["yoga", "general"]
   },
   {
-    "id": 18,
-    "url": "https://www.youtube.com/embed/4ORRiN2_aVI",
+    "id": "4ORRiN2_aVI",
     "duration": 15,
     "name": "Everyday 15-Minute Vinyasa Yoga Flow",
     "creator": "Jessica Richburg",
     "tags": ["yoga"]
   },
   {
-    "id": 19,
-    "url": "https://www.youtube.com/embed/Z6jRKThDCBU",
+    "id": "Z6jRKThDCBU",
     "duration": 30,
     "name": "30 min Full Body Yoga - Intermediate Vinyasa Yoga",
     "creator": "Yoga with Kassandra",
     "tags": ["yoga", "full-body"]
   },
   {
-    "id": 20,
-    "url": "https://www.youtube.com/embed/i-dW0RL6bJA",
+    "id": "i-dW0RL6bJA",
     "duration": 60,
     "name": "1 Hour Flexibility Yoga - Yoga for Hips and Hamstring Flexibility",
     "creator": "Yoga with Kassandra",
     "tags": ["yoga"]
   },
   {
-    "id": 21,
-    "url": "https://www.youtube.com/embed/vjEAmyKgve0",
+    "id": "vjEAmyKgve0",
     "duration": 10,
     "name": "10 MIN PILATES HIIT WORKOUT | Full Body Sculpt (Warm Up & Cool Down Included)",
     "creator": "Move with Nicole",
     "tags": ["pilates", "general"]
   },
   {
-    "id": 22,
-    "url": "https://www.youtube.com/embed/qilX7uoP5dM",
+    "id": "qilX7uoP5dM",
     "duration": 20,
     "name": "Strong Dynamic Pilates Routine - 20 Minutes | Lottie Murphy Pilates",
     "creator": "Lottie Murphy",
     "tags": ["pilates", "full-body"]
   },
   {
-    "id": 23,
-    "url": "https://www.youtube.com/embed/0zjiVQ950EE",
+    "id": "0zjiVQ950EE",
     "duration": 40,
     "name": "40 MIN FULL BODY WORKOUT || At-Home Pilates",
     "creator": "Move with Nicole",
     "tags": ["pilates", "full-body"]
   },
   {
-    "id": 24,
-    "url": "https://www.youtube.com/embed/IwSdbcvEIbA",
+    "id": "IwSdbcvEIbA",
     "duration": 50,
     "name": "50 MIN FULL BODY WORKOUT || At-Home Pilates",
     "creator": "Move with Nicole",
     "tags": ["pilates", "full-body"]
   },
   {
-    "id": 25,
-    "url": "https://www.youtube.com/embed/tYyNM9pmOlA",
+    "id": "tYyNM9pmOlA",
     "duration": 10,
     "name": "10 minute LOW IMPACT fun cardio workout. No equipment.",
     "creator": "Body Project",
     "tags": ["cardio", "general"]
   },
   {
-    "id": 26,
-    "url": "https://www.youtube.com/embed/ml6cT4AZdqI",
+    "id": "ml6cT4AZdqI",
     "duration": 30,
     "name": "30-Minute HIIT Cardio Workout with Warm Up - No Equipment at Home | SELF",
     "creator": "SELF",
     "tags": ["cardio", "HIIT", "full-body"]
   },
   {
-    "id": 27,
-    "url": "https://www.youtube.com/embed/L_xrDAtykMI",
+    "id": "L_xrDAtykMI",
     "duration": 15,
     "name": "15 Minute Beginner Stretch Flexibility Routine! (FOLLOW ALONG)",
     "creator": "Tom Merrick",
     "tags": ["stretch", "general"]
   },
   {
-    "id": 28,
-    "url": "https://www.youtube.com/embed/Cw-Wt4xKD2s",
+    "id": "Cw-Wt4xKD2s",
     "duration": 15,
     "name": "15 MIN HAPPY DANCE WORKOUT - burn calories and smile / No Equipment I Pamela Reif",
     "creator": "Pamela Reif",
     "tags": ["dance", "cardio", "general"]
   },
   {
-    "id": 29,
-    "url": "https://www.youtube.com/embed/RD5g84rvTPo",
-    "duration": 40,
-    "name": "Weight Loss 6-8 Kg in 30 Days - Aerobic Dance Workout Everyday for The Best Body Shape | Eva Fitness",
-    "creator": "Eva Fitness",
-    "tags": ["dance", "cardio", "general"]
-  },
-  {
-    "id": 30,
-    "url": "https://www.youtube.com/embed/bm4WZyH5p2I",
+    "id": "bm4WZyH5p2I",
     "duration": 20,
     "name": "20-Minute STRONG by Zumba® Cardio and Full-Body Toning Workout",
     "creator": "POPSUGAR Fitness",
     "tags": ["dance", "cardio", "full-body"]
   },
   {
-    "id": 31,
-    "url": "https://www.youtube.com/embed/_sNRH65Wmuw",
+    "id": "_sNRH65Wmuw",
     "duration": 5,
     "name": "5 MIN WARM UP FOR AT HOME WORKOUTS (No Jumping)",
     "creator": "MadFit",
     "tags": ["general", "warm-up"]
+  },
+  {
+    "id": "k_mze-d6IiE",
+    "duration": 40,
+    "name": "40 Minute Feel Good Dance Workout | The Studio by Jamie Kinkeade",
+    "creator": "The Studio by Jamie Kinkeade",
+    "tags": ["dance", "cardio"]
   }
 ]

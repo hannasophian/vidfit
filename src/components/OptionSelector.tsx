@@ -71,7 +71,11 @@ export default function OptionSelector(): JSX.Element {
   );
 
   const showVids = videos.map((video) => (
-    <iframe width="420" height="315" src={video.url}></iframe>
+    <iframe
+      width="420"
+      height="315"
+      src={`https://www.youtube.com/embed/${video.id}`}
+    ></iframe>
   ));
   return (
     <>

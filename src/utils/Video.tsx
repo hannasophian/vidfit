@@ -1,6 +1,5 @@
 export default interface Video {
-  id: number;
-  url: string;
+  id: string;
   duration: number;
   name: string;
   creator: string;
