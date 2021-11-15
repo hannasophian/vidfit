@@ -149,19 +149,26 @@ export default function getVideos(duration: number, tags: string[]) {
       switch (noOfTags) {
         case 1:
           let nextvid;
+          // let possibleVids3;
           let vid1 = getRandomElement(
             searchForTime(searchForTags(tags[0]), 20, 60)
           );
           vids.push(vid1);
           workoutDuration += vid1.duration;
           while (workoutDuration <= 55) {
+            // possibleVids3 = getRandomElement(searchForTime(
+            //   searchForTags(getRandomElement([tags[1], "general"])),
+            //   5,
+            //   60 - workoutDuration
+            // ));
             nextvid = getRandomElement(
               searchForTime(
-                searchForTags(getRandomElement([tags[1], "general"])),
-                60 - workoutDuration - 10,
+                searchForTags(getRandomElement([tags[0], "general"])),
+                5,
                 60 - workoutDuration
               )
             );
+            // console.log(possibleVids3);
             vids.push(nextvid);
             console.log(nextvid);
             workoutDuration += nextvid.duration;
